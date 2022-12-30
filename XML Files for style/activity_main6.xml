@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/brown"
+    tools:context=".MainActivity6">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/maths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:backgroundTint="#E91E63"
+        android:gravity="center_horizontal"
+        android:padding="6dp"
+        android:text="MATHEMATICS"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:cornerRadius="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Physics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/maths"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#E91E63"
+        android:gravity="center_horizontal"
+        android:padding="6dp"
+        android:text="PHYSICS"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:cornerRadius="13dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/eee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Physics"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#E91E63"
+        android:gravity="center_horizontal"
+        android:padding="6dp"
+        android:text="MECHANICAL ENGINEERING"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#E91E63"
+        android:gravity="center_horizontal"
+        android:padding="6dp"
+        android:text="ELECTRICAL ENGINEERING"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+
+</RelativeLayout>
